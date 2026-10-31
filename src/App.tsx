@@ -41,7 +41,7 @@ export default function App() {
       {/* Main Container */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
         {/* Hero Section */}
-        <div className="p-8 bg-gradient-to-b from-slate-900 to-slate-900/60 border border-slate-800 rounded-2xl">
+        <div className="p-8 bg-linear-to-b from-slate-900 to-slate-900/60 border border-slate-800 rounded-2xl">
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
             <div className="space-y-3 max-w-3xl">
               {/* Clean unboxed metadata with typographic separators */}

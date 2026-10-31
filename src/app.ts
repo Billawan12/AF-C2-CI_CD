@@ -1,6 +1,6 @@
 import express, { Express, Request, Response, NextFunction } from 'express';
 import dotenv from 'dotenv';
-import { calculate, MathOperation } from './math.ts';
+import { calculate, MathOperation } from './math.js';
 
 // Load environment variables from .env file
 dotenv.config();

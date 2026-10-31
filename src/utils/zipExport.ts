@@ -1,5 +1,5 @@
 import JSZip from 'jszip';
-import { REPO_FILES } from '../data/repoFiles';
+import { REPO_FILES } from '../data/repoFiles.js';
 
 export async function downloadRepoZip(): Promise<void> {
   const zip = new JSZip();
